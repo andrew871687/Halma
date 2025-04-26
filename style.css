@@ -7,6 +7,38 @@ body
 h1
 {
     font-family: Roboto Mono;
-    color:   rgb(156, 197, 233);
+    color:   rgb(26, 27, 27);
     text-align: center;
+}
+
+
+table, th, td
+{
+    
+    background-color:#E9967A;
+    font-family: "Roboto Mono";
+    margin: auto ;
+    width: 80%;
+    padding: auto;
+}
+
+  
+ 
+
+td {
+    border-left: none;
+    border-right:1px solid rgb(3, 3, 3);
+    border-top: 1px solid rgb(3, 3, 3);
+    border-bottom: none;
+    padding: 1px;
+}
+ 
+    
+th
+
+.babuk
+{
+    border: 1px #292020;
+
+    
 }
