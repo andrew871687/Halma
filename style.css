@@ -12,33 +12,24 @@ h1
 }
 
 
-table, th, td
-{
-    
-    background-color:#E9967A;
-    font-family: "Roboto Mono";
-    margin: auto ;
-    width: 80%;
-    padding: auto;
-}
 
-  
- 
 
-td {
-    border-left: none;
-    border-right:1px solid rgb(3, 3, 3);
-    border-top: 1px solid rgb(3, 3, 3);
-    border-bottom: none;
-    padding: 1px;
+
 }
- 
-    
-th
 
 .babuk
 {
-    border: 1px #292020;
-
-    
+    border: 1px #292020; 
 }
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: autogit;
+  }
+  
+  td, th {
+    margin: auto;
+    width: auto /* Szélesség */
+    height: 50px; /* Magasság */
+    border: 3px solid #ccc; /* Különbség a cellák között */
+  }
